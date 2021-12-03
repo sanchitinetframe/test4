@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
 })
 
 
+app.get('/fun1', (req, res) => {
+    res.send('Hello! World function 1')
+  })
+
 
 
 app.listen(port, () => {
